@@ -1,0 +1,48 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--card-background);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav li {
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav li:hover {
+  color: var(--primary-color);
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.footer {
+  padding: 1.5rem;
+  text-align: center;
+  border-top: 1px solid var(--border-color);
+  background-color: var(--card-background);
+}
